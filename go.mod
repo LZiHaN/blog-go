@@ -24,3 +24,11 @@ require (
 	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
+
+replace (
+	github.com/LZiHaN/blog-go/pkg/setting => ~/go-workspace/blog-go/pkg/setting
+	github.com/LZiHaN/blog-go/conf => ~/go-workspace/blog-go/conf
+	github.com/LZiHaN/blog-go/middleware => ~/go-workspace/blog-go/middleware
+	github.com/LZiHaN/blog-go/models => ~/go-workspace/blog-go/models
+	github.com/LZiHaN/blog-go/routers => ~/go-workspace/blog-go/routers
+)
